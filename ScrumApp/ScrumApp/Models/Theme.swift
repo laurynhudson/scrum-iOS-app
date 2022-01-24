@@ -36,5 +36,9 @@ case bubblegum
     var mainColor: Color {
         Color(rawValue)
     }
+    
+    var name: String {
+        rawValue.capitalized
+    }
 }
 
